@@ -31,7 +31,7 @@ public class HomeServlet extends HttpServlet {
 if(redirectedPage.equals("META-INF/context.xml") || redirectedPage.equals("WEB-INF/web.xml")){
 			
 			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/" + "Home.jsp");
-			dispatcher.forward(request, response);
+			dispatcher.forward(request, response);
 		}
 		
 		try {

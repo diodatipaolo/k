@@ -112,7 +112,7 @@ public class ProdottoDao implements ProdottoDaoInterfaccia{
 				if (connection != null)
 					connection.close();
 			}
-		}
+		} 
 		return bean;
 	}
 
